@@ -1,0 +1,60 @@
+.index{
+  background-image: url("https://cdn.wccftech.com/wp-content/uploads/2021/11/2022-FullStack-Web-Developer-Bundle.v1.jpg");
+  color: #ffff;
+  padding: 50px;
+  margin: auto;
+  height: 650px;
+  box-sizing: border-box;
+}
+.menu {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+} 
+.menu a { 
+  width:100px;
+  text-decoration:none;
+  padding:3px 5px;
+  display:block;
+  cursor: pointer;
+}
+  
+.menu a:hover {
+  background-color:#f1ffb0;
+  border-radius: 5%;
+}
+li img{
+  width: 100px;
+}
+.buttons-section{
+  margin-top: 75px;
+}
+.buttons{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin-left: 20px;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+}
+.stacks-view,
+.about-view,
+.contact-view {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  background-color: rgb(154, 154, 231);
+}
+.logos{
+  height: 520px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+
+}
+.logos img{
+  width: 100px;
+}
